@@ -1,0 +1,33 @@
+PODS:
+  - ACTagView (2.2.4)
+  - Alamofire (4.6.0)
+  - FSPagerView (0.7.1)
+  - HandyJSON (4.0.0-beta.1)
+  - JSQWebViewController (6.0.0)
+  - Kingfisher (4.5.0)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - ACTagView (~> 2.2.4)
+  - Alamofire
+  - FSPagerView
+  - HandyJSON (~> 4.0.0-beta.1)
+  - JSQWebViewController
+  - Kingfisher
+  - SnapKit
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ACTagView: 8b690039b87bd7cddb03dab97cb6a12038636058
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
+  HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
+  JSQWebViewController: 51041569b75d19dbb6b7fe0b7ae053c32409a9be
+  Kingfisher: 26ae0473102b77b575da51960c932431e3745407
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: c4ddad5517d278bbe0297530aae84329d1d3e383
+
+COCOAPODS: 1.4.0.beta.1

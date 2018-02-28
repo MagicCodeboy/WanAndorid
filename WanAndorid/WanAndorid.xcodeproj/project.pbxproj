@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1D6EFE20465F7000761631 /* JSQWebViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1D6EFF20465F7000761631 /* JSQWebViewController.framework */; };
+		CD1D6F012046847F00761631 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D6F002046847F00761631 /* TagViewController.swift */; };
+		CD1D6F042046859C00761631 /* ACTagView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1D6F052046859C00761631 /* ACTagView.framework */; };
+		CD27B7F82043B1D700203D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B7F72043B1D700203D70 /* AppDelegate.swift */; };
+		CD27B8002043B1D700203D70 /* WanAndorid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD27B7FE2043B1D700203D70 /* WanAndorid.xcdatamodeld */; };
+		CD27B8022043B1D700203D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD27B8012043B1D700203D70 /* Assets.xcassets */; };
+		CD27B8052043B1D700203D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD27B8032043B1D700203D70 /* LaunchScreen.storyboard */; };
+		CD27B8102043B1D700203D70 /* WanAndoridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B80F2043B1D700203D70 /* WanAndoridTests.swift */; };
+		CD27B81B2043B1D700203D70 /* WanAndoridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B81A2043B1D700203D70 /* WanAndoridUITests.swift */; };
+		CD27B8382043B7BE00203D70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8372043B7BE00203D70 /* HomeViewController.swift */; };
+		CD27B83A2043B7C800203D70 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8392043B7C800203D70 /* ListViewController.swift */; };
+		CD27B83C2043B7D800203D70 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B83B2043B7D800203D70 /* MineViewController.swift */; };
+		CD27B8422043B81D00203D70 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8412043B81D00203D70 /* SearchViewController.swift */; };
+		CD27B8452043B88800203D70 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8442043B88800203D70 /* MainTabbarViewController.swift */; };
+		CD27B8472043BEB900203D70 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8462043BEB900203D70 /* Const.swift */; };
+		CDD61E1A2043F41C005B9F21 /* Pods_WanAndorid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD61E1B2043F41C005B9F21 /* Pods_WanAndorid.framework */; };
+		CDD61E1C2043F423005B9F21 /* FSPagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD61E1D2043F423005B9F21 /* FSPagerView.framework */; };
+		CDD61E20204401A3005B9F21 /* HomeTabalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD61E1E204401A3005B9F21 /* HomeTabalCell.swift */; };
+		CDD61E21204401A3005B9F21 /* HomeTabalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD61E1F204401A3005B9F21 /* HomeTabalCell.xib */; };
+		CDD61E2420441839005B9F21 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD61E2220441839005B9F21 /* ListTableViewCell.swift */; };
+		CDD61E2520441839005B9F21 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD61E2320441839005B9F21 /* ListTableViewCell.xib */; };
+		CDD61E282044186D005B9F21 /* MineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD61E262044186D005B9F21 /* MineTableViewCell.swift */; };
+		CDD61E292044186D005B9F21 /* MineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD61E272044186D005B9F21 /* MineTableViewCell.xib */; };
+		CDD61E2C20441C07005B9F21 /* ExitLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD61E2A20441C07005B9F21 /* ExitLogCell.swift */; };
+		CDD61E2D20441C07005B9F21 /* ExitLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD61E2B20441C07005B9F21 /* ExitLogCell.xib */; };
+		CDE6CA1C2044F89900D14FCC /* MineHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA1B2044F89900D14FCC /* MineHeadView.swift */; };
+		CDE6CA1D2044FA7C00D14FCC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA222044FA7C00D14FCC /* Alamofire.framework */; };
+		CDE6CA1E2044FA7C00D14FCC /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA232044FA7C00D14FCC /* HandyJSON.framework */; };
+		CDE6CA1F2044FA7C00D14FCC /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA242044FA7C00D14FCC /* Kingfisher.framework */; };
+		CDE6CA202044FA7C00D14FCC /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA252044FA7C00D14FCC /* SnapKit.framework */; };
+		CDE6CA212044FA7C00D14FCC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA262044FA7C00D14FCC /* SwiftyJSON.framework */; };
+		CDE6CA2C2045306900D14FCC /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA2B2045306900D14FCC /* NetworkRequest.swift */; };
+		CDE6CA2E2045433600D14FCC /* TheHomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA2D2045433600D14FCC /* TheHomeData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD27B80C2043B1D700203D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD27B7EC2043B1D700203D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD27B7F32043B1D700203D70;
+			remoteInfo = WanAndorid;
+		};
+		CD27B8172043B1D700203D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD27B7EC2043B1D700203D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD27B7F32043B1D700203D70;
+			remoteInfo = WanAndorid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B13E2D7CCB4E3B4807D1F5E /* Pods_WanAndorid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanAndorid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F037CA611D2C463E9968D38 /* Pods-WanAndorid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndorid.release.xcconfig"; path = "Pods/Target Support Files/Pods-WanAndorid/Pods-WanAndorid.release.xcconfig"; sourceTree = "<group>"; };
+		CD1D6EFF20465F7000761631 /* JSQWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSQWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D6F002046847F00761631 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		CD1D6F03204684BD00761631 /* ACTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ACTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D6F052046859C00761631 /* ACTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ACTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD27B7F42043B1D700203D70 /* WanAndorid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndorid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD27B7F72043B1D700203D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD27B7FF2043B1D700203D70 /* WanAndorid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WanAndorid.xcdatamodel; sourceTree = "<group>"; };
+		CD27B8012043B1D700203D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD27B8042043B1D700203D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD27B8062043B1D700203D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD27B80B2043B1D700203D70 /* WanAndoridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndoridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD27B80F2043B1D700203D70 /* WanAndoridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanAndoridTests.swift; sourceTree = "<group>"; };
+		CD27B8112043B1D700203D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD27B8162043B1D700203D70 /* WanAndoridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndoridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD27B81A2043B1D700203D70 /* WanAndoridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanAndoridUITests.swift; sourceTree = "<group>"; };
+		CD27B81C2043B1D700203D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD27B8372043B7BE00203D70 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD27B8392043B7C800203D70 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CD27B83B2043B7D800203D70 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		CD27B8412043B81D00203D70 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CD27B8442043B88800203D70 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		CD27B8462043BEB900203D70 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CDD61E1B2043F41C005B9F21 /* Pods_WanAndorid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WanAndorid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD61E1D2043F423005B9F21 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD61E1E204401A3005B9F21 /* HomeTabalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabalCell.swift; sourceTree = "<group>"; };
+		CDD61E1F204401A3005B9F21 /* HomeTabalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTabalCell.xib; sourceTree = "<group>"; };
+		CDD61E2220441839005B9F21 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		CDD61E2320441839005B9F21 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		CDD61E262044186D005B9F21 /* MineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineTableViewCell.swift; sourceTree = "<group>"; };
+		CDD61E272044186D005B9F21 /* MineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineTableViewCell.xib; sourceTree = "<group>"; };
+		CDD61E2A20441C07005B9F21 /* ExitLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitLogCell.swift; sourceTree = "<group>"; };
+		CDD61E2B20441C07005B9F21 /* ExitLogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExitLogCell.xib; sourceTree = "<group>"; };
+		CDE6CA1B2044F89900D14FCC /* MineHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeadView.swift; sourceTree = "<group>"; };
+		CDE6CA222044FA7C00D14FCC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6CA232044FA7C00D14FCC /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6CA242044FA7C00D14FCC /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6CA252044FA7C00D14FCC /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6CA262044FA7C00D14FCC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6CA2B2045306900D14FCC /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		CDE6CA2D2045433600D14FCC /* TheHomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHomeData.swift; sourceTree = "<group>"; };
+		E14E09F698DF4098A3D9F6EA /* Pods-WanAndorid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndorid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WanAndorid/Pods-WanAndorid.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD27B7F12043B1D700203D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1D6F042046859C00761631 /* ACTagView.framework in Frameworks */,
+				CD1D6EFE20465F7000761631 /* JSQWebViewController.framework in Frameworks */,
+				CDE6CA1D2044FA7C00D14FCC /* Alamofire.framework in Frameworks */,
+				CDE6CA1E2044FA7C00D14FCC /* HandyJSON.framework in Frameworks */,
+				CDE6CA1F2044FA7C00D14FCC /* Kingfisher.framework in Frameworks */,
+				CDE6CA202044FA7C00D14FCC /* SnapKit.framework in Frameworks */,
+				CDE6CA212044FA7C00D14FCC /* SwiftyJSON.framework in Frameworks */,
+				CDD61E1C2043F423005B9F21 /* FSPagerView.framework in Frameworks */,
+				CDD61E1A2043F41C005B9F21 /* Pods_WanAndorid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD27B8082043B1D700203D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD27B8132043B1D700203D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9887807D763812757B3297CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E14E09F698DF4098A3D9F6EA /* Pods-WanAndorid.debug.xcconfig */,
+				4F037CA611D2C463E9968D38 /* Pods-WanAndorid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD27B7EB2043B1D700203D70 = {
+			isa = PBXGroup;
+			children = (
+				CD27B7F62043B1D700203D70 /* WanAndorid */,
+				CD27B80E2043B1D700203D70 /* WanAndoridTests */,
+				CD27B8192043B1D700203D70 /* WanAndoridUITests */,
+				CD27B7F52043B1D700203D70 /* Products */,
+				9887807D763812757B3297CE /* Pods */,
+				E3422DA6F750CB45E883657D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD27B7F52043B1D700203D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B7F42043B1D700203D70 /* WanAndorid.app */,
+				CD27B80B2043B1D700203D70 /* WanAndoridTests.xctest */,
+				CD27B8162043B1D700203D70 /* WanAndoridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD27B7F62043B1D700203D70 /* WanAndorid */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B82A2043B75300203D70 /* Classes */,
+				CD27B8282043B75300203D70 /* Define */,
+				CD27B8292043B75300203D70 /* Lib */,
+				CD27B7F72043B1D700203D70 /* AppDelegate.swift */,
+				CD27B8462043BEB900203D70 /* Const.swift */,
+				CDE6CA2B2045306900D14FCC /* NetworkRequest.swift */,
+				CD27B8012043B1D700203D70 /* Assets.xcassets */,
+				CD27B8032043B1D700203D70 /* LaunchScreen.storyboard */,
+				CD27B8062043B1D700203D70 /* Info.plist */,
+				CD27B7FE2043B1D700203D70 /* WanAndorid.xcdatamodeld */,
+			);
+			path = WanAndorid;
+			sourceTree = "<group>";
+		};
+		CD27B80E2043B1D700203D70 /* WanAndoridTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B80F2043B1D700203D70 /* WanAndoridTests.swift */,
+				CD27B8112043B1D700203D70 /* Info.plist */,
+			);
+			path = WanAndoridTests;
+			sourceTree = "<group>";
+		};
+		CD27B8192043B1D700203D70 /* WanAndoridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B81A2043B1D700203D70 /* WanAndoridUITests.swift */,
+				CD27B81C2043B1D700203D70 /* Info.plist */,
+			);
+			path = WanAndoridUITests;
+			sourceTree = "<group>";
+		};
+		CD27B8282043B75300203D70 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		CD27B8292043B75300203D70 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CD27B82A2043B75300203D70 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B8432043B84300203D70 /* Tabbar */,
+				CD27B83D2043B81100203D70 /* Search */,
+				CD27B82B2043B75300203D70 /* Home */,
+				CD27B82F2043B75300203D70 /* List */,
+				CD27B8332043B75300203D70 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD27B82B2043B75300203D70 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B82C2043B75300203D70 /* Model */,
+				CD27B82D2043B75300203D70 /* Viewcontrollers */,
+				CD27B82E2043B75300203D70 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD27B82C2043B75300203D70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDE6CA2D2045433600D14FCC /* TheHomeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD27B82D2043B75300203D70 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B8372043B7BE00203D70 /* HomeViewController.swift */,
+				CD1D6F002046847F00761631 /* TagViewController.swift */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		CD27B82E2043B75300203D70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDD61E1E204401A3005B9F21 /* HomeTabalCell.swift */,
+				CDD61E1F204401A3005B9F21 /* HomeTabalCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD27B82F2043B75300203D70 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B8302043B75300203D70 /* Model */,
+				CD27B8312043B75300203D70 /* Viewcontrollers */,
+				CD27B8322043B75300203D70 /* Views */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CD27B8302043B75300203D70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD27B8312043B75300203D70 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B8392043B7C800203D70 /* ListViewController.swift */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		CD27B8322043B75300203D70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDD61E2220441839005B9F21 /* ListTableViewCell.swift */,
+				CDD61E2320441839005B9F21 /* ListTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD27B8332043B75300203D70 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B8342043B75300203D70 /* Model */,
+				CD27B8352043B75300203D70 /* Viewcontrollers */,
+				CD27B8362043B75300203D70 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CD27B8342043B75300203D70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD27B8352043B75300203D70 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B83B2043B7D800203D70 /* MineViewController.swift */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		CD27B8362043B75300203D70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDD61E262044186D005B9F21 /* MineTableViewCell.swift */,
+				CDD61E272044186D005B9F21 /* MineTableViewCell.xib */,
+				CDD61E2A20441C07005B9F21 /* ExitLogCell.swift */,
+				CDD61E2B20441C07005B9F21 /* ExitLogCell.xib */,
+				CDE6CA1B2044F89900D14FCC /* MineHeadView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD27B83D2043B81100203D70 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B83E2043B81100203D70 /* Model */,
+				CD27B83F2043B81100203D70 /* ViewController */,
+				CD27B8402043B81100203D70 /* Views */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CD27B83E2043B81100203D70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD27B83F2043B81100203D70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B8412043B81D00203D70 /* SearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CD27B8402043B81100203D70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD27B8432043B84300203D70 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CD27B8442043B88800203D70 /* MainTabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		E3422DA6F750CB45E883657D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1D6F052046859C00761631 /* ACTagView.framework */,
+				CD1D6F03204684BD00761631 /* ACTagView.framework */,
+				CD1D6EFF20465F7000761631 /* JSQWebViewController.framework */,
+				CDE6CA222044FA7C00D14FCC /* Alamofire.framework */,
+				CDE6CA232044FA7C00D14FCC /* HandyJSON.framework */,
+				CDE6CA242044FA7C00D14FCC /* Kingfisher.framework */,
+				CDE6CA252044FA7C00D14FCC /* SnapKit.framework */,
+				CDE6CA262044FA7C00D14FCC /* SwiftyJSON.framework */,
+				CDD61E1D2043F423005B9F21 /* FSPagerView.framework */,
+				CDD61E1B2043F41C005B9F21 /* Pods_WanAndorid.framework */,
+				0B13E2D7CCB4E3B4807D1F5E /* Pods_WanAndorid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD27B7F32043B1D700203D70 /* WanAndorid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD27B81F2043B1D700203D70 /* Build configuration list for PBXNativeTarget "WanAndorid" */;
+			buildPhases = (
+				34CA6C4B9BB2CAC03BEBBDFD /* [CP] Check Pods Manifest.lock */,
+				CD27B7F02043B1D700203D70 /* Sources */,
+				CD27B7F12043B1D700203D70 /* Frameworks */,
+				CD27B7F22043B1D700203D70 /* Resources */,
+				CDBF7E1C0F1E4471337EB111 /* [CP] Embed Pods Frameworks */,
+				35597C7876295D7AE21CEA3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanAndorid;
+			productName = WanAndorid;
+			productReference = CD27B7F42043B1D700203D70 /* WanAndorid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD27B80A2043B1D700203D70 /* WanAndoridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD27B8222043B1D700203D70 /* Build configuration list for PBXNativeTarget "WanAndoridTests" */;
+			buildPhases = (
+				CD27B8072043B1D700203D70 /* Sources */,
+				CD27B8082043B1D700203D70 /* Frameworks */,
+				CD27B8092043B1D700203D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD27B80D2043B1D700203D70 /* PBXTargetDependency */,
+			);
+			name = WanAndoridTests;
+			productName = WanAndoridTests;
+			productReference = CD27B80B2043B1D700203D70 /* WanAndoridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD27B8152043B1D700203D70 /* WanAndoridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD27B8252043B1D700203D70 /* Build configuration list for PBXNativeTarget "WanAndoridUITests" */;
+			buildPhases = (
+				CD27B8122043B1D700203D70 /* Sources */,
+				CD27B8132043B1D700203D70 /* Frameworks */,
+				CD27B8142043B1D700203D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD27B8182043B1D700203D70 /* PBXTargetDependency */,
+			);
+			name = WanAndoridUITests;
+			productName = WanAndoridUITests;
+			productReference = CD27B8162043B1D700203D70 /* WanAndoridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD27B7EC2043B1D700203D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LSH;
+				TargetAttributes = {
+					CD27B7F32043B1D700203D70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD27B80A2043B1D700203D70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD27B7F32043B1D700203D70;
+					};
+					CD27B8152043B1D700203D70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD27B7F32043B1D700203D70;
+					};
+				};
+			};
+			buildConfigurationList = CD27B7EF2043B1D700203D70 /* Build configuration list for PBXProject "WanAndorid" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD27B7EB2043B1D700203D70;
+			productRefGroup = CD27B7F52043B1D700203D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD27B7F32043B1D700203D70 /* WanAndorid */,
+				CD27B80A2043B1D700203D70 /* WanAndoridTests */,
+				CD27B8152043B1D700203D70 /* WanAndoridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD27B7F22043B1D700203D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD27B8052043B1D700203D70 /* LaunchScreen.storyboard in Resources */,
+				CDD61E2520441839005B9F21 /* ListTableViewCell.xib in Resources */,
+				CDD61E2D20441C07005B9F21 /* ExitLogCell.xib in Resources */,
+				CDD61E292044186D005B9F21 /* MineTableViewCell.xib in Resources */,
+				CD27B8022043B1D700203D70 /* Assets.xcassets in Resources */,
+				CDD61E21204401A3005B9F21 /* HomeTabalCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD27B8092043B1D700203D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD27B8142043B1D700203D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34CA6C4B9BB2CAC03BEBBDFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanAndorid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35597C7876295D7AE21CEA3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WanAndorid/Pods-WanAndorid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBF7E1C0F1E4471337EB111 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WanAndorid/Pods-WanAndorid-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACTagView/ACTagView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQWebViewController/JSQWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACTagView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WanAndorid/Pods-WanAndorid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD27B7F02043B1D700203D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE6CA2C2045306900D14FCC /* NetworkRequest.swift in Sources */,
+				CD27B8422043B81D00203D70 /* SearchViewController.swift in Sources */,
+				CD27B8002043B1D700203D70 /* WanAndorid.xcdatamodeld in Sources */,
+				CDE6CA2E2045433600D14FCC /* TheHomeData.swift in Sources */,
+				CD27B7F82043B1D700203D70 /* AppDelegate.swift in Sources */,
+				CDD61E20204401A3005B9F21 /* HomeTabalCell.swift in Sources */,
+				CD27B8452043B88800203D70 /* MainTabbarViewController.swift in Sources */,
+				CD27B83A2043B7C800203D70 /* ListViewController.swift in Sources */,
+				CD27B8472043BEB900203D70 /* Const.swift in Sources */,
+				CD27B8382043B7BE00203D70 /* HomeViewController.swift in Sources */,
+				CDD61E2C20441C07005B9F21 /* ExitLogCell.swift in Sources */,
+				CDD61E282044186D005B9F21 /* MineTableViewCell.swift in Sources */,
+				CDE6CA1C2044F89900D14FCC /* MineHeadView.swift in Sources */,
+				CD1D6F012046847F00761631 /* TagViewController.swift in Sources */,
+				CD27B83C2043B7D800203D70 /* MineViewController.swift in Sources */,
+				CDD61E2420441839005B9F21 /* ListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD27B8072043B1D700203D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD27B8102043B1D700203D70 /* WanAndoridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD27B8122043B1D700203D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD27B81B2043B1D700203D70 /* WanAndoridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD27B80D2043B1D700203D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD27B7F32043B1D700203D70 /* WanAndorid */;
+			targetProxy = CD27B80C2043B1D700203D70 /* PBXContainerItemProxy */;
+		};
+		CD27B8182043B1D700203D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD27B7F32043B1D700203D70 /* WanAndorid */;
+			targetProxy = CD27B8172043B1D700203D70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD27B8032043B1D700203D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD27B8042043B1D700203D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD27B81D2043B1D700203D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD27B81E2043B1D700203D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD27B8202043B1D700203D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E14E09F698DF4098A3D9F6EA /* Pods-WanAndorid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = WanAndorid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.WanAndorid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD27B8212043B1D700203D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F037CA611D2C463E9968D38 /* Pods-WanAndorid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = WanAndorid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.WanAndorid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD27B8232043B1D700203D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = WanAndoridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.WanAndoridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndorid.app/WanAndorid";
+			};
+			name = Debug;
+		};
+		CD27B8242043B1D700203D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = WanAndoridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.WanAndoridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndorid.app/WanAndorid";
+			};
+			name = Release;
+		};
+		CD27B8262043B1D700203D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = WanAndoridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.WanAndoridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WanAndorid;
+			};
+			name = Debug;
+		};
+		CD27B8272043B1D700203D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2LYHXGC7E;
+				INFOPLIST_FILE = WanAndoridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsh.WanAndoridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WanAndorid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD27B7EF2043B1D700203D70 /* Build configuration list for PBXProject "WanAndorid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD27B81D2043B1D700203D70 /* Debug */,
+				CD27B81E2043B1D700203D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD27B81F2043B1D700203D70 /* Build configuration list for PBXNativeTarget "WanAndorid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD27B8202043B1D700203D70 /* Debug */,
+				CD27B8212043B1D700203D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD27B8222043B1D700203D70 /* Build configuration list for PBXNativeTarget "WanAndoridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD27B8232043B1D700203D70 /* Debug */,
+				CD27B8242043B1D700203D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD27B8252043B1D700203D70 /* Build configuration list for PBXNativeTarget "WanAndoridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD27B8262043B1D700203D70 /* Debug */,
+				CD27B8272043B1D700203D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD27B7FE2043B1D700203D70 /* WanAndorid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD27B7FF2043B1D700203D70 /* WanAndorid.xcdatamodel */,
+			);
+			currentVersion = CD27B7FF2043B1D700203D70 /* WanAndorid.xcdatamodel */;
+			path = WanAndorid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD27B7EC2043B1D700203D70 /* Project object */;
+}
