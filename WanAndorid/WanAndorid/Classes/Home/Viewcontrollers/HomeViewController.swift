@@ -61,6 +61,7 @@ class HomeViewController: UIViewController,FSPagerViewDelegate,FSPagerViewDataSo
     @objc func leftACtionClick() {
         let tagViewVc = TagViewController()
         self.navigationController?.pushViewController(tagViewVc, animated: false)
+        self.tabBarController?.hidesBottomBarWhenPushed = true
     }
     
     func loadTableViewData() {

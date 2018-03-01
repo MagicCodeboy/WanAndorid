@@ -22,6 +22,7 @@
 		CD27B8422043B81D00203D70 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8412043B81D00203D70 /* SearchViewController.swift */; };
 		CD27B8452043B88800203D70 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8442043B88800203D70 /* MainTabbarViewController.swift */; };
 		CD27B8472043BEB900203D70 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8462043BEB900203D70 /* Const.swift */; };
+		CDA8EAD12047B03C0045B8D0 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8EAD02047B03C0045B8D0 /* ListData.swift */; };
 		CDD61E1A2043F41C005B9F21 /* Pods_WanAndorid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD61E1B2043F41C005B9F21 /* Pods_WanAndorid.framework */; };
 		CDD61E1C2043F423005B9F21 /* FSPagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD61E1D2043F423005B9F21 /* FSPagerView.framework */; };
 		CDD61E20204401A3005B9F21 /* HomeTabalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD61E1E204401A3005B9F21 /* HomeTabalCell.swift */; };
@@ -84,6 +85,7 @@
 		CD27B8412043B81D00203D70 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CD27B8442043B88800203D70 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		CD27B8462043BEB900203D70 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CDA8EAD02047B03C0045B8D0 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
 		CDD61E1B2043F41C005B9F21 /* Pods_WanAndorid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WanAndorid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD61E1D2043F423005B9F21 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD61E1E204401A3005B9F21 /* HomeTabalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabalCell.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 		CD27B8302043B75300203D70 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CDA8EAD02047B03C0045B8D0 /* ListData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -608,6 +611,7 @@
 				CD27B8422043B81D00203D70 /* SearchViewController.swift in Sources */,
 				CD27B8002043B1D700203D70 /* WanAndorid.xcdatamodeld in Sources */,
 				CDE6CA2E2045433600D14FCC /* TheHomeData.swift in Sources */,
+				CDA8EAD12047B03C0045B8D0 /* ListData.swift in Sources */,
 				CD27B7F82043B1D700203D70 /* AppDelegate.swift in Sources */,
 				CDD61E20204401A3005B9F21 /* HomeTabalCell.swift in Sources */,
 				CD27B8452043B88800203D70 /* MainTabbarViewController.swift in Sources */,

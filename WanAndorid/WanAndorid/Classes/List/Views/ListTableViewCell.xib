@@ -12,12 +12,68 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="KGk-i7-Jjw" customClass="ListTableViewCell" customModule="WanAndorid" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="379" height="107"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="379" height="106.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yb2-vj-Ya1">
+                        <rect key="frame" x="10" y="10" width="52" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcP-V2-kpZ">
+                        <rect key="frame" x="131.5" y="41" width="112" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.64705882349999999" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGn-8X-RJA">
+                        <rect key="frame" x="253.5" y="41" width="111.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.64705882349999999" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWS-rF-Vyg">
+                        <rect key="frame" x="10" y="41" width="111.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.64705882349999999" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9M-9A-xFP">
+                        <rect key="frame" x="10" y="69" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.64705882349999999" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="h9M-9A-xFP" firstAttribute="leading" secondItem="yb2-vj-Ya1" secondAttribute="leading" id="1qA-q9-CKc"/>
+                    <constraint firstItem="oGn-8X-RJA" firstAttribute="width" secondItem="AWS-rF-Vyg" secondAttribute="width" id="5Tc-lf-PaJ"/>
+                    <constraint firstItem="h9M-9A-xFP" firstAttribute="top" secondItem="AWS-rF-Vyg" secondAttribute="bottom" constant="10" id="HYs-QV-0Qb"/>
+                    <constraint firstItem="oGn-8X-RJA" firstAttribute="height" secondItem="AWS-rF-Vyg" secondAttribute="height" id="Hk8-51-NUC"/>
+                    <constraint firstItem="yb2-vj-Ya1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="MC3-Ov-Bf4"/>
+                    <constraint firstItem="bcP-V2-kpZ" firstAttribute="leading" secondItem="AWS-rF-Vyg" secondAttribute="trailing" constant="10" id="Q8b-iL-uKN"/>
+                    <constraint firstItem="AWS-rF-Vyg" firstAttribute="top" secondItem="yb2-vj-Ya1" secondAttribute="bottom" constant="10" id="WLx-Yb-2EZ"/>
+                    <constraint firstItem="oGn-8X-RJA" firstAttribute="leading" secondItem="bcP-V2-kpZ" secondAttribute="trailing" constant="10" id="ZqM-TG-RVN"/>
+                    <constraint firstItem="AWS-rF-Vyg" firstAttribute="leading" secondItem="yb2-vj-Ya1" secondAttribute="leading" id="eic-wl-Ubg"/>
+                    <constraint firstItem="oGn-8X-RJA" firstAttribute="centerY" secondItem="AWS-rF-Vyg" secondAttribute="centerY" id="ilu-2v-l1x"/>
+                    <constraint firstItem="bcP-V2-kpZ" firstAttribute="height" secondItem="AWS-rF-Vyg" secondAttribute="height" id="jNs-HF-lQc"/>
+                    <constraint firstItem="bcP-V2-kpZ" firstAttribute="centerY" secondItem="AWS-rF-Vyg" secondAttribute="centerY" id="pHU-lu-8Ga"/>
+                    <constraint firstItem="yb2-vj-Ya1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="rOt-0R-q9z"/>
+                    <constraint firstAttribute="trailing" secondItem="oGn-8X-RJA" secondAttribute="trailing" constant="10" id="vpw-ol-RjR"/>
+                    <constraint firstItem="bcP-V2-kpZ" firstAttribute="width" secondItem="AWS-rF-Vyg" secondAttribute="width" id="xz4-to-mZc"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="listTitleLable" destination="yb2-vj-Ya1" id="0O3-cg-1Sf"/>
+                <outlet property="theFourLabel" destination="h9M-9A-xFP" id="sUY-Fd-Y76"/>
+                <outlet property="theOneLabel" destination="AWS-rF-Vyg" id="UGl-48-Zkx"/>
+                <outlet property="theThreeLabel" destination="oGn-8X-RJA" id="tv6-3C-fhA"/>
+                <outlet property="theTwolabel" destination="bcP-V2-kpZ" id="Kj3-Uf-hs1"/>
+            </connections>
             <point key="canvasLocation" x="63.5" y="85.5"/>
         </tableViewCell>
     </objects>
