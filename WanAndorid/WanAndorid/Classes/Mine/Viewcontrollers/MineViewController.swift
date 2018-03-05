@@ -56,8 +56,17 @@ extension MineViewController {
         mineTableView?.register(UINib.init(nibName: "MineTableViewCell", bundle: nil), forCellReuseIdentifier: "MineTableViewCell")
         mineTableView?.register(UINib.init(nibName: "ExitLogCell", bundle: nil), forCellReuseIdentifier: "ExitLogCell")
         
+        let tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(self.tapClick))
+        headView.userImage.addGestureRecognizer(tapGesture)
+        
         mineTableView?.tableHeaderView = headView
         self.view.addSubview(mineTableView!)
+    }
+    
+    @objc func tapClick() {
+        let loginVc = LoginViewController()
+        let nav = UINavigationController.init(rootViewController: loginVc)
+        present(nav, animated: true, completion: nil)
     }
 }
 

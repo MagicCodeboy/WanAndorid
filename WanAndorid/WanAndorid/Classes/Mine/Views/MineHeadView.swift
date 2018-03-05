@@ -25,6 +25,7 @@ class MineHeadView: UIView {
     //设置UI界面
     private func setupUI() {
         userImage.image = UIImage.init(named: "1")
+        userImage.isUserInteractionEnabled = true
         self.addSubview(userImage)
         userImage.snp.makeConstraints { (make) in
             make.centerX.equalToSuperview()

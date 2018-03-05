@@ -23,6 +23,10 @@
 		CD27B8452043B88800203D70 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8442043B88800203D70 /* MainTabbarViewController.swift */; };
 		CD27B8472043BEB900203D70 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27B8462043BEB900203D70 /* Const.swift */; };
 		CDA8EAD12047B03C0045B8D0 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8EAD02047B03C0045B8D0 /* ListData.swift */; };
+		CDA8EAD82047DD7C0045B8D0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8EAD62047DD7C0045B8D0 /* RegisterViewController.swift */; };
+		CDA8EAD92047DD7C0045B8D0 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA8EAD72047DD7C0045B8D0 /* RegisterViewController.xib */; };
+		CDA8EADC2047DD890045B8D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8EADA2047DD890045B8D0 /* LoginViewController.swift */; };
+		CDA8EADD2047DD890045B8D0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA8EADB2047DD890045B8D0 /* LoginViewController.xib */; };
 		CDD61E1A2043F41C005B9F21 /* Pods_WanAndorid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD61E1B2043F41C005B9F21 /* Pods_WanAndorid.framework */; };
 		CDD61E1C2043F423005B9F21 /* FSPagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD61E1D2043F423005B9F21 /* FSPagerView.framework */; };
 		CDD61E20204401A3005B9F21 /* HomeTabalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD61E1E204401A3005B9F21 /* HomeTabalCell.swift */; };
@@ -86,6 +90,10 @@
 		CD27B8442043B88800203D70 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		CD27B8462043BEB900203D70 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		CDA8EAD02047B03C0045B8D0 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		CDA8EAD62047DD7C0045B8D0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CDA8EAD72047DD7C0045B8D0 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		CDA8EADA2047DD890045B8D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDA8EADB2047DD890045B8D0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		CDD61E1B2043F41C005B9F21 /* Pods_WanAndorid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WanAndorid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD61E1D2043F423005B9F21 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD61E1E204401A3005B9F21 /* HomeTabalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabalCell.swift; sourceTree = "<group>"; };
@@ -224,6 +232,7 @@
 		CD27B82A2043B75300203D70 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CDA8EAD22047DD550045B8D0 /* Regis_Login */,
 				CD27B8432043B84300203D70 /* Tabbar */,
 				CD27B83D2043B81100203D70 /* Search */,
 				CD27B82B2043B75300203D70 /* Home */,
@@ -381,6 +390,41 @@
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
+		CDA8EAD22047DD550045B8D0 /* Regis_Login */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8EAD32047DD550045B8D0 /* Models */,
+				CDA8EAD42047DD550045B8D0 /* ViewControllers */,
+				CDA8EAD52047DD550045B8D0 /* Views */,
+			);
+			path = Regis_Login;
+			sourceTree = "<group>";
+		};
+		CDA8EAD32047DD550045B8D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDA8EAD42047DD550045B8D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8EAD62047DD7C0045B8D0 /* RegisterViewController.swift */,
+				CDA8EAD72047DD7C0045B8D0 /* RegisterViewController.xib */,
+				CDA8EADA2047DD890045B8D0 /* LoginViewController.swift */,
+				CDA8EADB2047DD890045B8D0 /* LoginViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CDA8EAD52047DD550045B8D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E3422DA6F750CB45E883657D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,8 +553,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8EADD2047DD890045B8D0 /* LoginViewController.xib in Resources */,
 				CD27B8052043B1D700203D70 /* LaunchScreen.storyboard in Resources */,
 				CDD61E2520441839005B9F21 /* ListTableViewCell.xib in Resources */,
+				CDA8EAD92047DD7C0045B8D0 /* RegisterViewController.xib in Resources */,
 				CDD61E2D20441C07005B9F21 /* ExitLogCell.xib in Resources */,
 				CDD61E292044186D005B9F21 /* MineTableViewCell.xib in Resources */,
 				CD27B8022043B1D700203D70 /* Assets.xcassets in Resources */,
@@ -611,11 +657,13 @@
 				CD27B8422043B81D00203D70 /* SearchViewController.swift in Sources */,
 				CD27B8002043B1D700203D70 /* WanAndorid.xcdatamodeld in Sources */,
 				CDE6CA2E2045433600D14FCC /* TheHomeData.swift in Sources */,
+				CDA8EADC2047DD890045B8D0 /* LoginViewController.swift in Sources */,
 				CDA8EAD12047B03C0045B8D0 /* ListData.swift in Sources */,
 				CD27B7F82043B1D700203D70 /* AppDelegate.swift in Sources */,
 				CDD61E20204401A3005B9F21 /* HomeTabalCell.swift in Sources */,
 				CD27B8452043B88800203D70 /* MainTabbarViewController.swift in Sources */,
 				CD27B83A2043B7C800203D70 /* ListViewController.swift in Sources */,
+				CDA8EAD82047DD7C0045B8D0 /* RegisterViewController.swift in Sources */,
 				CD27B8472043BEB900203D70 /* Const.swift in Sources */,
 				CD27B8382043B7BE00203D70 /* HomeViewController.swift in Sources */,
 				CDD61E2C20441C07005B9F21 /* ExitLogCell.swift in Sources */,
